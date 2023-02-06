@@ -171,10 +171,14 @@ main{
   }
 
   .labs-grid{
+    margin: 0;
+    padding: 0;
     border: 1px solid;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    align-content: center;
   }
 
   .projects-grid{
@@ -182,6 +186,7 @@ main{
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
   }
 
   .articles-grid{
@@ -198,6 +203,7 @@ main{
   }
 
   .card{
+    width: 255px;
     --padding: 1rem;
     background-color: #fff;
     padding: 0;
@@ -232,7 +238,7 @@ main{
   }
 
   .card:hover > .card-header.card-image > img {
-    transform: scale(1.025);
+    transform: scale(1.090);
   }
 
 
@@ -241,7 +247,14 @@ main{
     padding: 0 var(--padding);
   }
 
+  .card-body h3{
+    font-size: 14px;
+    text-align: start;
+  }
+
+
   .card-footer{
+    text-align: start;
     margin-top: 1rem;
     padding: var(--padding);
     padding-top: 0;
