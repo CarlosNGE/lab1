@@ -18,12 +18,12 @@
     
     
     #main-header{
-        padding: 20px 80px 20px 80px;
         display: flex;
         justify-content: space-between;
         background-color: #445da3;
         font-size: 100%;
         box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .4);
+        padding: 1.32rem 1rem 1.32rem 4rem;
     }
     
     
@@ -193,7 +193,7 @@
      }
     
      .articles{
-        border: 1px solid #000;
+        /*border: 1px solid #000;*/
         text-align: left;
         margin: 4rem 0;
         grid-column: 4/5;
@@ -202,7 +202,7 @@
     
 
     .labs-grid{
-        border: 2px solid;
+        /*border: 2px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -214,7 +214,7 @@
      
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -223,7 +223,7 @@
       }
     
     .articles-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -350,11 +350,11 @@
 
 
 #main-header{
-    padding: 20px 80px 20px 80px;
     display: flex;
     justify-content: space-between;
     background-color: #445da3;
     font-size: 100%;
+    padding: 1.32rem 1rem 1.32rem 4rem;
 }
 
 
@@ -417,7 +417,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid;
+    /*border: 1px solid;*/
     grid-column: 1/5;
     grid-row: 1/1;
     align-items: center;
@@ -462,7 +462,7 @@
 
 
 main{
-    border: 1px solid;
+    /*border: 1px solid;*/
     margin: 1rem 8rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 300px;
@@ -520,20 +520,11 @@ main{
  }
 
 
- /*.labs li, .projects li{
-    background-color: #c4d4ec ;
-    border: 2px solid;
-    padding: 2rem; 
-    margin: 1rem;
-    width: 10rem;
-    height: auto;
-  }
-  */
 
   .labs-grid{
     margin: 0;
     padding: 0;
-    border: 1px solid;
+    /*border: 1px solid;*/
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -545,7 +536,7 @@ main{
  
 
   .projects-grid{
-    border: 1px solid;
+    /*border: 1px solid;*/
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -554,7 +545,7 @@ main{
   }
 
   .articles-grid{
-    border: 1px solid;
+    /*border: 1px solid;*/
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -680,6 +671,7 @@ main{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1.32rem 1rem 1.32rem 4rem;
     }
 
     #main-header h1{
@@ -692,7 +684,7 @@ main{
 
 
     main{
-        border: 1px solid;
+        /*border: 1px solid;*/
         margin: .8rem 7rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 210px;
@@ -720,15 +712,6 @@ main{
         font-size: 1.2rem;
     }
 
-    /*.labs li, .projects li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 2rem;
-        margin: 1rem;
-        width: 10rem;
-        height: auto;
-      }
-      */
 
     .labs{
         margin: 4rem 0;
@@ -772,7 +755,7 @@ main{
     
     
     .labs-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -780,7 +763,7 @@ main{
       }
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -875,6 +858,7 @@ main{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1.32rem 1rem 1.32rem 4rem;
     }
 
     #main-header h1{
@@ -887,7 +871,7 @@ main{
 
 
     main{
-        border: 1px solid;
+        /*border: 1px solid;*/
         margin: .7rem 5rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 200px;
@@ -915,15 +899,6 @@ main{
         font-size: 1.1rem;
     }
 
-    /*.labs li, .projects li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 2rem;
-        margin: 1rem;
-        width: 10rem;
-        height: auto;
-      }
-      */
 
     .labs{
         margin: 4rem 0;
@@ -967,7 +942,7 @@ main{
     
     
     .labs-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -975,7 +950,7 @@ main{
       }
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -1071,6 +1046,7 @@ main{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1.32rem 1rem 1.32rem 4rem;
     }
 
     #main-header h1{
@@ -1126,7 +1102,7 @@ main{
 
 
     main{
-        border: 1px solid;
+        /*border: 1px solid;*/
         margin: .6rem 6rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 225px;
@@ -1154,15 +1130,6 @@ main{
         font-size: 1rem;
     }
 
-    /*.labs li, .projects li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 2rem;
-        margin: 1rem;
-        width: 10rem;
-        height: auto;
-      }
-      */
 
       .labs{
         margin: 4rem 0;
@@ -1186,7 +1153,7 @@ main{
      }
 
      .labs h2, .projects h2{
-        text-align: left;
+        text-align: center;
         font-size: 23px;
         margin-bottom: 2rem;
     }
@@ -1206,7 +1173,7 @@ main{
     
     
     .labs-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -1214,7 +1181,7 @@ main{
       }
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -1312,6 +1279,7 @@ main{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1.32rem 1rem 1.32rem 4rem;
     }
 
     #main-header h1{
@@ -1367,7 +1335,7 @@ main{
 
 
     main{
-        border: 1px solid;
+        /*border: 1px solid;*/
         margin: .6rem 4rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 200px;
@@ -1395,15 +1363,6 @@ main{
         font-size: 1.05rem;
     }
 
-    /*.labs li, .projects li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 2rem;
-        margin: 1rem;
-        width: 10rem;
-        height: auto;
-      }
-      */
 
       .labs{
         margin: 4rem 0;
@@ -1427,7 +1386,7 @@ main{
      }
 
      .labs h2, .projects h2{
-        text-align: left;
+        text-align: center;
         font-size: 22px;
         margin-bottom: 2rem;
     }
@@ -1447,7 +1406,7 @@ main{
     
     
     .labs-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -1455,7 +1414,7 @@ main{
       }
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -1558,6 +1517,7 @@ main{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1.32rem 1rem 1.32rem 4rem;
     }
 
     #main-header h1{
@@ -1613,7 +1573,7 @@ main{
 
 
     main{
-        border: 1px solid;
+        /*border: 1px solid;*/
         margin: .6rem 3.5rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 180px;
@@ -1641,15 +1601,6 @@ main{
         font-size: 1.05rem;
     }
 
-    /*.labs li, .projects li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 2rem;
-        margin: 1rem;
-        width: 10rem;
-        height: auto;
-      }
-      */
 
       .labs{
         margin: 4rem 0;
@@ -1673,7 +1624,7 @@ main{
      }
 
      .labs h2, .projects h2{
-        text-align: left;
+        text-align: center;
         font-size: 22px;
         margin-bottom: 2rem;
     }
@@ -1693,7 +1644,7 @@ main{
     
     
     .labs-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -1701,7 +1652,7 @@ main{
       }
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -1793,7 +1744,7 @@ main{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 3rem 1rem 2rem;
+        padding: 1.32rem 1rem 1.32rem 2rem;
     }
 
     #main-header h1{
@@ -1848,11 +1799,11 @@ main{
 
 
     main{
-        border: 1px solid;
-        margin: .6rem 5rem;
+        /*border: 1px solid;*/
+        margin: .8rem 4rem;
         display: grid;
         justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr 225px;
+        grid-template-columns: 1fr 1fr 1fr 200px;
         grid-template-rows: auto;
     }
 
@@ -1884,15 +1835,6 @@ main{
         font-size: 1rem;
     }
 
-    /*.labs li, .projects li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 2rem;
-        margin: 1rem;
-        width: 10rem;
-        height: auto;
-      }
-      */
 
       .labs{
         margin: 4rem 0;
@@ -1916,7 +1858,7 @@ main{
      }
 
      .labs h2, .projects h2{
-        text-align: left;
+        text-align: center;
         font-size: 22px;
         margin-bottom: 2rem;
     }
@@ -1936,7 +1878,7 @@ main{
     
     
     .labs-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         justify-content: center;
         grid-template-columns: 350px;
@@ -1945,7 +1887,7 @@ main{
       }
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
         justify-content: center;
         grid-template-columns: 350px;
@@ -1954,7 +1896,7 @@ main{
       }
 
       .card{
-        width: 300px;
+        width: 280px;
         --padding: 1rem;
         background-color: #fff;
         padding: 0;
@@ -2036,30 +1978,71 @@ main{
 @media screen and (max-width: 730px){
 
     #main-header{
-        height: 120px;
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1.32rem 0 1.32rem 1rem;
     }
 
     #main-header h1{
-        font-size: 33px;
+        font-size: 1.2rem;
     }
 
     #main-header a{
+        font-size: 14px;
+    }
+
+    .nav-bar{
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    
+    
+    .nav-bar li a{
+        font-weight: bolder;
+        color: #fff;
         font-size: 19px;
+    }
+    
+    
+    .navbar-links{
+        display:flex;
+        align-items: center;
+    }
+    
+    
+    .toggle-button{
+        position: absolute;
+        top: 1.25rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+    
+    
+    .toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: #000;
+        border-radius: 10px;
     }
 
 
     main{
-        margin: 3rem;
+        /*border: 1px solid;*/
+        margin: .8rem 3rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 25% 50% 50% 15%;
-    }
-
-    .main-image{
-        width: 500px;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 130px;
+        grid-template-rows: auto;
     }
 
     .about{
@@ -2074,78 +2057,142 @@ main{
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        padding: 0 6rem;
     }
-    
+
     .about-me{
-        width: 100%;
+        padding: 2rem 3rem 0 3rem;
     }
 
     .about-me h2{
-        font-size: 1.7rem;
+        font-size: 2rem;
         padding-bottom: 15px;
     }
 
     .about-me p{
-        
-        font-size:medium;
+        font-size: 1rem;
     }
 
-    .main-image{
-    margin-right: 0;
-    width: 100%;
 
-}
-
-    .labs li, .projects li, .articles li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 1rem;
-        margin: 1rem;
-        width: 8rem;
-        height: auto;
-      }
-
-    .labs{
-        grid-column: 1/5;
-        grid-row: 2/3;
-    }
-
-    .labs h2{
-        text-align: left;
-    }
-
+      .labs{
+        margin: 4rem 0;
+        grid-column: 1/4;
+        grid-row: 2/5;
+     }
+    
     .projects{
-        grid-column: 1/5;
-        grid-row: 3/4;
-    }
+        margin: 2rem 0;
+        text-align:center;
+        grid-column: 1/4;
+        grid-row: 5/7;
+       
+     }
     
     .articles{
-        grid-column: 1/5;
-        grid-row: 4/5;
+        margin: 4rem 0;
+        text-align:left;
+        grid-column: 4/5;
+        grid-row: 2/4;
+     }
+
+     .labs h2, .projects h2{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 2rem;
     }
+
+    .articles h3{
+        font-family: 'nunito';
+        font-size: 18px;
+        font-weight: bolder;
+        padding-top: 2rem;
+     }
+    
+     .articles a{
+        color: #445da3;
+        font-family: 'nunito';
+        font-size: 15px;
+     }
     
     
     .labs-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        grid-template-columns: 330px;
         grid-template-rows: auto;
-        
+        grid-row-gap: 3.5rem;
       }
     
     .projects-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        grid-template-columns: 330px;
         grid-template-rows: auto;
+        grid-row-gap: 3.5rem;
       }
 
-    .articles-grid{
-        border: 1px solid;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
+      .card{
+        width: 280px;
+        --padding: 1rem;
+        background-color: #fff;
+        padding: 0;
+        border: none;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+        border-radius: .25rem;
+        max-width: 350px;
+        overflow: hidden;
       }
+
+      .card-body h3{
+        padding-top: .8rem;
+        font-size: 15px;
+        text-align: center;
+      }
+    
+      .card-body p{
+        padding-top: 1rem;
+        font-family: 'nunito';
+        font-size: 13px;
+        text-align: center;
+    }
+    
+     
+      .card-footer{
+        text-align: center;
+        margin-top: 0.5rem;
+        padding: var(--padding);
+        padding-top: 0;
+      }
+    
+    
+      .btn{
+        background-color: #445da3;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: .5em .75em;
+        border-radius: .25em;
+        cursor: pointer;
+      }
+    
+      .btn:hover, .btn:focus {
+        background-color: #758fd6;
+      }
+      
+    
+      footer{
+        text-align: center;
+        font-family: 'nunito';
+        font-weight: bolder;
+        font-size: 22px;
+        background-color: #758fd6;
+        width: 100%;
+        padding: 5.5rem;
+        margin: 0;
+     }
 
 
 }
@@ -2166,138 +2213,21 @@ main{
 @media screen and (max-width: 580px){
 
     #main-header{
-        height: 120px;
-        flex-direction: column;
-        justify-content: space-between;
         align-items: center;
-    }
-
-    #main-header h1{
-        font-size: 32px;
-    }
-
-    #main-header a{
-        font-size: 18px;
-    }
-
-
-    main{
-        margin: 3rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 25% 50% 50% 15%;
-    }
-
-    .about{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        
-    }
-
-    .about img{
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .about-me{
-        width: 100%;
-    }
-
-    .about-me h2{
-        font-size: 1.7rem;
-        padding-bottom: 15px;
-    }
-
-    .about-me p{
-        
-        font-size:medium;
-    }
-
-    .main-image{
-        margin-right: 0;
-        width: 100%;
-    
-    }
-
-    .labs li, .projects li, .articles li{
-        background-color: lightskyblue ;
-        border: 2px solid;
-        padding: 1rem;
-        margin: 1rem;
-        width: 10rem;
-        height: auto;
-      }
-
-    .labs{
-        grid-column: 1/5;
-        grid-row: 2/3;
-    }
-
-    .projects{
-        grid-column: 1/5;
-        grid-row: 3/4;
-    }
-    
-    .articles{
-        grid-column: 1/5;
-        grid-row: 4/5;
-    }
-    
-    
-    .labs-grid{
-        border: 1px solid;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        
-      }
-    
-    .projects-grid{
-        border: 1px solid;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-      }
-
-    .articles-grid{
-        border: 1px solid;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-      }
-
-
-}
-
-@media screen and (max-width: 480px){
-
-    body, ul, li {
-        margin:0;
-        padding:0;
-    }
-
-    body{
-        background-color: #FFFDFA;
-    }
-    
-    main{
-        margin: 0;
-    }
-
-    /* Flex content */
-
-    /* Header */
-
-    #main-header{
         height: auto;
         padding: 0 0 0 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #e1e8f0;
+        background-color: #445da3;
+    }
+
+    #main-header h1{
+        font-size: 1.7rem;
+    }
+
+    #main-header a{
+        font-size: 14px;
     }
 
     .header{
@@ -2312,13 +2242,17 @@ main{
         display: flex;
     }
 
+    .navbar-toggle span {
+        background-color: #fff;
+    }
+
     .navbar-links{
         display: none;
     }
 
     .navbar-links{
         width: 100%;
-        background-color: #989898;
+        background-color: #8aa4e9;
     }
 
     .navbar-links ul{
@@ -2346,110 +2280,648 @@ main{
         display: flex;
     }
 
-    /* Main content */
+
 
     main{
-        display:block;
+        /*: 1px solid;*/
+        margin: .8rem 3rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
     }
 
     .about{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items:center;
-        text-align: center;
-        padding: 15px;
-        margin-left: 65px;
-        border: 1px solid;
+        width: 100%;
+        
+    }
+
+    .about img{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 1.5rem;
     }
 
     .about-me{
-        width: 100%;
-        padding: 15px 0 35px 0;
+        padding: 2rem 1rem 0 1rem;
     }
 
     .about-me h2{
+        font-size: 2rem;
         padding-bottom: 15px;
     }
 
     .about-me p{
-        
-        font-size:large;
+        font-size: 1rem;
     }
 
-    .labs, .projects, footer{
+
+      .labs{
+        margin: 4rem 0;
+        grid-column: 1/5;
+        grid-row: 2/5;
+     }
+    
+    .projects{
+        margin: 2rem 0;
+        text-align:center;
+        grid-column: 1/5;
+        grid-row: 5/7;
+       
+     }
+    
+    .articles{
+        margin: 0;
         text-align: center;
-        border: 3px solid;
+        grid-column: 1/5;
+        grid-row: 7/8;
+        margin-bottom: 2rem;
+     }
+
+     .labs h2, .projects h2{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 2rem;
     }
 
-   .labs{
-        margin: 0;
-        background-color: #e1e8f0;
-        padding: 3rem 2rem;
-    }
-
-    .projects {
-        margin: 0;
-        background-color: #98b7d7;
-        padding: 3rem 2rem;
-    }
-
-    .articles {
-        margin: 0;
-        background-color: #bbd0e6;
-        padding: 3rem 2rem;
-    }
-
-    .labs li, .projects li, .articles li{
-        border: 2px solid;
-        padding: 2rem;
-        width: 90%;
-        margin: 1rem auto;
-        margin-bottom: 3rem;
-        aspect-ratio: 4/3;
-      }
-
+    .articles h3{
+        font-family: 'nunito';
+        font-size: 18px;
+        font-weight: bolder;
+        padding-top: 2rem;
+     }
+    
+     .articles a{
+        color: #445da3;
+        font-family: 'nunito';
+        font-size: 15px;
+     }
+    
+    
     .labs-grid{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .projects-grid{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .articles-grid{
-        border: 1px solid;
+        /*border: 1px solid;*/
         display:grid;
-        grid-template-columns: 1fr;
+        justify-content: center;
+        grid-template-columns: 350px;
         grid-template-rows: auto;
+        grid-row-gap: 3.5rem;
+      }
+    
+    .projects-grid{
+        /*border: 1px solid;*/
+        display:grid;
+        justify-content: center;
+        grid-template-columns: 350px;
+        grid-template-rows: auto;
+        grid-row-gap: 3.5rem;
       }
 
-    .about{
+      .card{
+        width: 350px;
+        --padding: 1rem;
+        background-color: #fff;
+        padding: 0;
+        border: none;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+        border-radius: .25rem;
+        max-width: 350px;
+        overflow: hidden;
+      }
+
+      .card-body h3{
+        padding-top: .9rem;
+        font-size: 15px;
+        text-align: center;
+      }
+    
+      .card-body p{
+        padding-top: 1rem;
+        font-family: 'nunito';
+        font-size: 14px;
+        text-align: center;
+    }
+    
+     
+      .card-footer{
+        text-align: center;
+        margin-top: 0.5rem;
+        padding: var(--padding);
+        padding-top: 0;
+      }
+    
+    
+      .btn{
+        background-color: #445da3;
+        color: #fff;
+        border: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: .5em .75em;
+        border-radius: .25em;
+        cursor: pointer;
+      }
+    
+      .btn:hover, .btn:focus {
+        background-color: #758fd6;
+      }
+      
+    
+      footer{
+        text-align: center;
+        font-family: 'nunito';
+        font-weight: bolder;
+        font-size: 22px;
+        background-color: #758fd6;
+        width: 100%;
+        padding: 5.5rem;
         margin: 0;
-    }
-
-    .about img{
-        width: 90%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 1.5rem;
-    }
-
-    footer{
-        margin: 0;
-    }
-
-     a{
-        text-decoration: none;
-        color: #000;
      }
 
 
-     li{
-        list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+    #main-header{
+        align-items: center;
+        height: auto;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #445da3;
+    }
+
+    #main-header h1{
+        font-size: 1.7rem;
+    }
+
+    #main-header a{
+        font-size: 14px;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+        padding: .75rem;
+    }
+
+    /* Navegation section */
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-toggle span {
+        background-color: #fff;
+    }
+
+    .navbar-links{
+        display: none;
+    }
+
+    .navbar-links{
+        width: 100%;
+        background-color: #8aa4e9;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .navbar-links li{
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid;
+    }
+
+    .navbar-links li a{
+         padding: .5rem 1rem;
+         color: #fff;
+         font-weight: bolder;
+         font-size: larger;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+
+
+    main{
+        /*border: 1px solid;*/
+        margin: .8rem 3rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         
+    }
+
+    .about img{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 1.5rem;
+    }
+
+    .about-me{
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .about-me h2{
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+
+    .about-me p{
+        font-size: 1rem;
+    }
+
+
+      .labs{
+        margin: 4rem 0;
+        grid-column: 1/5;
+        grid-row: 2/5;
+     }
+    
+    .projects{
+        margin: 2rem 0;
+        text-align:center;
+        grid-column: 1/5;
+        grid-row: 5/7;
+       
+     }
+    
+    .articles{
+        margin: 0;
+        text-align: center;
+        grid-column: 1/5;
+        grid-row: 7/8;
+        margin-bottom: 2rem;
+     }
+
+     .labs h2, .projects h2{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 2rem;
+    }
+
+    .articles h3{
+        font-family: 'nunito';
+        font-size: 18px;
+        font-weight: bolder;
+        padding-top: 2rem;
+     }
+    
+     .articles a{
+        color: #445da3;
+        font-family: 'nunito';
+        font-size: 15px;
+     }
+    
+    
+    .labs-grid{
+        /*border: 1px solid;*/
+        display:grid;
+        justify-content: center;
+        grid-template-columns: 350px;
+        grid-template-rows: auto;
+        grid-row-gap: 3.5rem;
+      }
+    
+    .projects-grid{
+        /*border: 1px solid;*/
+        display:grid;
+        justify-content: center;
+        grid-template-columns: 350px;
+        grid-template-rows: auto;
+        grid-row-gap: 3.5rem;
+      }
+
+      .card{
+        width: 350px;
+        --padding: 1rem;
+        background-color: #fff;
+        padding: 0;
+        border: none;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+        border-radius: .25rem;
+        max-width: 350px;
+        overflow: hidden;
+      }
+
+      .card-body h3{
+        padding-top: .9rem;
+        font-size: 15px;
+        text-align: center;
+      }
+    
+      .card-body p{
+        padding-top: 1rem;
+        font-family: 'nunito';
+        font-size: 14px;
+        text-align: center;
+    }
+    
+     
+      .card-footer{
+        text-align: center;
+        margin-top: 0.5rem;
+        padding: var(--padding);
+        padding-top: 0;
+      }
+    
+    
+      .btn{
+        background-color: #445da3;
+        color: #fff;
+        border: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: .5em .75em;
+        border-radius: .25em;
+        cursor: pointer;
+      }
+    
+      .btn:hover, .btn:focus {
+        background-color: #758fd6;
+      }
+      
+    
+      footer{
+        text-align: center;
+        font-family: 'nunito';
+        font-weight: bolder;
+        font-size: 22px;
+        background-color: #758fd6;
+        width: 100%;
+        padding: 5.5rem;
+        margin: 0;
+     }
+}
+
+
+
+
+
+@media screen and (max-width: 450px){
+
+    #main-header{
+        align-items: center;
+        height: auto;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #445da3;
+    }
+
+    #main-header h1{
+        font-size: 1.7rem;
+    }
+
+    #main-header a{
+        font-size: 14px;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+        padding: .75rem;
+    }
+
+    /* Navegation section */
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-toggle span {
+        background-color: #fff;
+    }
+
+    .navbar-links{
+        display: none;
+    }
+
+    .navbar-links{
+        width: 100%;
+        background-color: #8aa4e9;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .navbar-links li{
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid;
+    }
+
+    .navbar-links li a{
+         padding: .5rem 1rem;
+         color: #fff;
+         font-weight: bolder;
+         font-size: larger;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+
+
+    main{
+        /*border: 1px solid;*/
+        margin: .8rem 3rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .about img{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 1.5rem;
+    }
+
+    .about-me{
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .about-me h2{
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+
+    .about-me p{
+        font-size: 1rem;
+    }
+
+
+      .labs{
+        margin: 4rem 0;
+        grid-column: 1/5;
+        grid-row: 2/5;
+     }
+    
+    .projects{
+        margin: 2rem 0;
+        text-align:center;
+        grid-column: 1/5;
+        grid-row: 5/7;
+       
+     }
+    
+    .articles{
+        margin: 0;
+        text-align: center;
+        grid-column: 1/5;
+        grid-row: 7/8;
+        margin-bottom: 2rem;
+     }
+
+     .labs h2, .projects h2{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 2rem;
+    }
+
+    .articles h3{
+        font-family: 'nunito';
+        font-size: 18px;
+        font-weight: bolder;
+        padding-top: 2rem;
+     }
+    
+     .articles a{
+        color: #445da3;
+        font-family: 'nunito';
+        font-size: 15px;
+     }
+    
+    
+    .labs-grid{
+        /*border: 1px solid;*/
+        display:grid;
+        justify-content: center;
+        grid-template-columns: 350px;
+        grid-template-rows: auto;
+        grid-row-gap: 3.5rem;
+      }
+    
+    .projects-grid{
+        /*border: 1px solid;*/
+        display:grid;
+        justify-content: center;
+        grid-template-columns: 350px;
+        grid-template-rows: auto;
+        grid-row-gap: 3.5rem;
+      }
+
+      .card{
+        width: 350px;
+        --padding: 1rem;
+        background-color: #fff;
+        padding: 0;
+        border: none;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+        border-radius: .25rem;
+        max-width: 350px;
+        overflow: hidden;
+      }
+
+      .card-body h3{
+        padding-top: .9rem;
+        font-size: 15px;
+        text-align: center;
+      }
+    
+      .card-body p{
+        padding-top: 1rem;
+        font-family: 'nunito';
+        font-size: 14px;
+        text-align: center;
+    }
+    
+     
+      .card-footer{
+        text-align: center;
+        margin-top: 0.5rem;
+        padding: var(--padding);
+        padding-top: 0;
+      }
+    
+    
+      .btn{
+        background-color: #445da3;
+        color: #fff;
+        border: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: .5em .75em;
+        border-radius: .25em;
+        cursor: pointer;
+      }
+    
+      .btn:hover, .btn:focus {
+        background-color: #758fd6;
+      }
+      
+    
+      footer{
+        text-align: center;
+        font-family: 'nunito';
+        font-weight: bolder;
+        font-size: 22px;
+        background-color: #758fd6;
+        width: 100%;
+        padding: 5.5rem;
+        margin: 0;
      }
 }
