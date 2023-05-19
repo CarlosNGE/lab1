@@ -6,6 +6,17 @@
     box-sizing: border-box;
 }
 
+.labs-grid a{
+    text-decoration: none;
+    color: white;
+}
+
+.projects-grid a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 
 
